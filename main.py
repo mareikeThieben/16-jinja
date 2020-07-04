@@ -6,11 +6,11 @@ app = Flask(__name__)
 def index():
     return render_template("index.html")
 
-@app.route("/about.html")
+@app.route("/about")
 def about():
     return render_template("about.html")
 
-if__name__ == '__main__':
+if __name__ == '__main__':
     app.run()
 
 
